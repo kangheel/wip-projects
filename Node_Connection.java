@@ -1,9 +1,14 @@
 import java.util.HashMap;
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
 import java.util.ArrayList;
+
 public class Node_Connection {
     private static HashMap<Node, ArrayList<Node>> list = new HashMap();
-    public static void main(String[] args) {
-        Node[][] array = new Node[100][100];
+
+    public static void main(String[] args) throws FileNotFoundException {
+        PrintWriter pw = new PrintWriter("node-paths.txt");
+        Node[][] array = new Node[75][75];
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array[0].length; j++) {
                 array[i][j] = new Node(i,j);
@@ -65,8 +70,11 @@ public class Node_Connection {
                 }
             }
         }
-        System.out.println(list + "\n");
-        System.out.println(count);
+        for (ArrayList<Node> nodes : list.values()) {
+            pw.println(nodes.toString() + "\n");
+        }
+        pw.println(count);
+        pw.close();
     }
     public static void printArray(Node[][] array) {
         for (int i = 0; i < array.length; i++) {
