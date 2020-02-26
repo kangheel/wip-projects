@@ -1,6 +1,6 @@
 import java.math.BigDecimal;
 
-public class Decoder {
+public class WIPDecoder {
     public static final double DELTA = 0.0001;
     public static void main(String[] args) {
         String code1 = "(-915,48056050048057055048057057049048052049048049049048056048051050049048053049049053048051050049048050049049055049049048049048133409883044)";

@@ -4,7 +4,7 @@ import java.io.PrintWriter;
 import java.math.BigDecimal;
 import java.util.Scanner;
 
-public class Encryption {
+public class WIPEncryption {
     private static String fileName;
     private static boolean newPrimes = false;
     private final static double CRITICAL_VALUE = 0.00001;
