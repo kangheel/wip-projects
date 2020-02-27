@@ -227,7 +227,7 @@ public class MENACE_AI {
             }
         }
     }
-    private static int winner(TTTBoard tttBoard) {
+    public static int winner(TTTBoard tttBoard) {
         boolean condition1 = (((tttBoard.row1[0] != 0 && tttBoard.row1[1] != 0) && tttBoard.row1[2] != 0) && ((tttBoard.row1[0] == tttBoard.row1[1]) && (tttBoard.row1[1] == tttBoard.row1[2])));
         boolean condition2 = (((tttBoard.row2[0] != 0 && tttBoard.row2[1] != 0) && tttBoard.row2[2] != 0) && ((tttBoard.row2[0] == tttBoard.row2[1]) && (tttBoard.row2[1] == tttBoard.row2[2])));
         boolean condition3 = (((tttBoard.row3[0] != 0 && tttBoard.row3[1] != 0) && tttBoard.row3[2] != 0) && ((tttBoard.row3[0] == tttBoard.row3[1]) && (tttBoard.row3[1] == tttBoard.row3[2])));

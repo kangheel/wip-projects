@@ -24,19 +24,19 @@ public class MENACE_ArrayCreator {
         }
 
         ArrayList<TTTBoard> pre_turn2 = new ArrayList<>();
-        HashSet<TTTBoard> uniquept2 = new HashSet<>();
+        HashSet<TTTBoard> uniques = new HashSet<>();
         for (TTTBoard tttBoard : turn1) {
             boolean isUnique = true;
-            for (TTTBoard u : uniquept2) {
+            for (TTTBoard u : uniques) {
                 if (u.equals(tttBoard)) {
                     isUnique = false;
                 }
             }
-            if (uniquept2.size() == 0) {
-                uniquept2.add(tttBoard);
+            if (uniques.size() == 0) {
+                uniques.add(tttBoard);
             }
             if (isUnique) {
-                uniquept2.add(tttBoard);
+                uniques.add(tttBoard);
                 for (int i = 0; i < 3; i++) {
                     for (int j = 0; j < 3; j++) {
                         TTTBoard temp = new TTTBoard(tttBoard);
@@ -52,19 +52,18 @@ public class MENACE_ArrayCreator {
         }
 
         ArrayList<TTTBoard> turn2 = new ArrayList<>();
-        HashSet<TTTBoard> uniquet2 = new HashSet<>();
         for (TTTBoard tttBoard : pre_turn2) {
             boolean isUnique = true;
-            for (TTTBoard u : uniquet2) {
+            for (TTTBoard u : uniques) {
                 if (u.equals(tttBoard)) {
                     isUnique = false;
                 }
             }
-            if (uniquet2.size() == 0) {
-                uniquet2.add(tttBoard);
+            if (uniques.size() == 0) {
+                uniques.add(tttBoard);
             }
             if (isUnique) {
-                uniquet2.add(tttBoard);
+                uniques.add(tttBoard);
                 for (int i = 0; i < 3; i++) {
                     for (int j = 0; j < 3; j++) {
                         TTTBoard temp = new TTTBoard(tttBoard);
@@ -80,19 +79,18 @@ public class MENACE_ArrayCreator {
         }
 ///////////////////////////////////////////////////////////////////////
         ArrayList<TTTBoard> pre_turn3 = new ArrayList<>();
-        HashSet<TTTBoard> uniquept3 = new HashSet<>();
         for (TTTBoard tttBoard : turn2) {
             boolean isUnique = true;
-            for (TTTBoard u : uniquept3) {
+            for (TTTBoard u : uniques) {
                 if (u.equals(tttBoard)) {
                     isUnique = false;
                 }
             }
-            if (uniquept3.size() == 0) {
-                uniquept3.add(tttBoard);
+            if (uniques.size() == 0) {
+                uniques.add(tttBoard);
             }
             if (isUnique) {
-                uniquept3.add(tttBoard);
+                uniques.add(tttBoard);
                 for (int i = 0; i < 3; i++) {
                     for (int j = 0; j < 3; j++) {
                         TTTBoard temp = new TTTBoard(tttBoard);
@@ -108,19 +106,18 @@ public class MENACE_ArrayCreator {
         }
 
         ArrayList<TTTBoard> turn3 = new ArrayList<>();
-        HashSet<TTTBoard> uniquet3 = new HashSet<>();
         for (TTTBoard tttBoard : pre_turn3) {
             boolean isUnique = true;
-            for (TTTBoard u : uniquet3) {
+            for (TTTBoard u : uniques) {
                 if (u.equals(tttBoard)) {
                     isUnique = false;
                 }
             }
-            if (uniquet3.size() == 0) {
-                uniquet3.add(tttBoard);
+            if (uniques.size() == 0) {
+                uniques.add(tttBoard);
             }
             if (isUnique) {
-                uniquet3.add(tttBoard);
+                uniques.add(tttBoard);
                 for (int i = 0; i < 3; i++) {
                     for (int j = 0; j < 3; j++) {
                         TTTBoard temp = new TTTBoard(tttBoard);
@@ -136,20 +133,19 @@ public class MENACE_ArrayCreator {
         }
 
         ArrayList<TTTBoard> pre_turn4 = new ArrayList<>();
-        HashSet<TTTBoard> uniquept4 = new HashSet<>();
         for (TTTBoard tttBoard : turn3) {
             if (! winner(tttBoard)) {
                 boolean isUnique = true;
-                for (TTTBoard u : uniquept4) {
+                for (TTTBoard u : uniques) {
                     if (u.equals(tttBoard)) {
                         isUnique = false;
                     }
                 }
-                if (uniquept4.size() == 0) {
-                    uniquept4.add(tttBoard);
+                if (uniques.size() == 0) {
+                    uniques.add(tttBoard);
                 }
                 if (isUnique) {
-                    uniquept4.add(tttBoard);
+                    uniques.add(tttBoard);
                     for (int i = 0; i < 3; i++) {
                         for (int j = 0; j < 3; j++) {
                             TTTBoard temp = new TTTBoard(tttBoard);
@@ -169,20 +165,19 @@ public class MENACE_ArrayCreator {
         }
 
         ArrayList<TTTBoard> turn4 = new ArrayList<>();
-        HashSet<TTTBoard> uniquet4 = new HashSet<>();
         for (TTTBoard tttBoard : pre_turn4) {
             if (! winner(tttBoard)) {
                 boolean isUnique = true;
-                for (TTTBoard u : uniquet4) {
+                for (TTTBoard u : uniques) {
                     if (u.equals(tttBoard)) {
                         isUnique = false;
                     }
                 }
-                if (uniquet4.size() == 0) {
-                    uniquet4.add(tttBoard);
+                if (uniques.size() == 0) {
+                    uniques.add(tttBoard);
                 }
                 if (isUnique) {
-                    uniquet4.add(tttBoard);
+                    uniques.add(tttBoard);
                     for (int i = 0; i < 3; i++) {
                         for (int j = 0; j < 3; j++) {
                             TTTBoard temp = new TTTBoard(tttBoard);
@@ -202,20 +197,19 @@ public class MENACE_ArrayCreator {
         }
 
         ArrayList<TTTBoard> pre_turn5 = new ArrayList<>();
-        HashSet<TTTBoard> uniquept5 = new HashSet<>();
         for (TTTBoard tttBoard : turn4) {
             if (! winner(tttBoard)) {
                 boolean isUnique = true;
-                for (TTTBoard u : uniquept5) {
+                for (TTTBoard u : uniques) {
                     if (u.equals(tttBoard)) {
                         isUnique = false;
                     }
                 }
-                if (uniquept5.size() == 0) {
-                    uniquept5.add(tttBoard);
+                if (uniques.size() == 0) {
+                    uniques.add(tttBoard);
                 }
                 if (isUnique) {
-                    uniquept5.add(tttBoard);
+                    uniques.add(tttBoard);
                     for (int i = 0; i < 3; i++) {
                         for (int j = 0; j < 3; j++) {
                             TTTBoard temp = new TTTBoard(tttBoard);
@@ -235,20 +229,19 @@ public class MENACE_ArrayCreator {
         }
 
         ArrayList<TTTBoard> turn5 = new ArrayList<>();
-        HashSet<TTTBoard> uniquet5 = new HashSet<>();
         for (TTTBoard tttBoard : pre_turn5) {
             if (! winner(tttBoard)) {
                 boolean isUnique = true;
-                for (TTTBoard u : uniquet5) {
+                for (TTTBoard u : uniques) {
                     if (u.equals(tttBoard)) {
                         isUnique = false;
                     }
                 }
-                if (uniquet5.size() == 0) {
-                    uniquet5.add(tttBoard);
+                if (uniques.size() == 0) {
+                    uniques.add(tttBoard);
                 }
                 if (isUnique) {
-                    uniquet5.add(tttBoard);
+                    uniques.add(tttBoard);
                     for (int i = 0; i < 3; i++) {
                         for (int j = 0; j < 3; j++) {
                             TTTBoard temp = new TTTBoard(tttBoard);
@@ -284,19 +277,28 @@ public class MENACE_ArrayCreator {
         // combinations.addAll(winners);
 
         ArrayList<TTTBoard> combinations = new ArrayList<>();
-        combinations.addAll(turn1);
-        combinations.addAll(pre_turn2);
-        combinations.addAll(turn2);
-        combinations.addAll(pre_turn3);
-        combinations.addAll(turn3);
-        combinations.addAll(pre_turn4);
-        combinations.addAll(turn4);
-        combinations.addAll(pre_turn5);
-        combinations.addAll(turn5);
-        combinations.addAll(winners);
+        // combinations.addAll(turn1);
+        // combinations.addAll(pre_turn2);
+        // combinations.addAll(turn2);
+        // combinations.addAll(pre_turn3);
+        // combinations.addAll(turn3);
+        // combinations.addAll(pre_turn4);
+        // combinations.addAll(turn4);
+        // combinations.addAll(pre_turn5);
+        // combinations.addAll(turn5);
+        // combinations.addAll(winners);
 
-        for (TTTBoard tttBoard : combinations) {
-            pw.println(tttBoard);
+        pw.println("Draws");
+        for (TTTBoard tttBoard : turn5) {
+            if (MENACE_AI.winner(tttBoard) == -1) {
+                pw.println(tttBoard);
+            }
+        }
+        pw.println("Winner");
+        for (TTTBoard tttBoard : winners) {
+            if (MENACE_AI.winner(tttBoard) == 1) {
+                pw.println(tttBoard);
+            }
         }
         pw.close();
 
