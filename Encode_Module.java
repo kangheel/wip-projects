@@ -6,14 +6,17 @@ public class Encode_Module {
     public static void main(String[] args) throws Exception {
         Scanner input = new Scanner(new File("message.txt"));
         PrintWriter export = new PrintWriter("encoded.txt");
-        String message = input.nextLine();
-        int layers = 3;
-        String encoded = encode(message,layers);
-        if (Decode_Module.repeatDecode(encoded).equals(message)) {
+        while (input.hasNextLine()) {
+            String message = input.nextLine();
+            int layers = 3;
+            String encoded = encode(message,layers);
             export.println(encoded);
-        }
-        else {
-            throw new Exception("Invalid code. Try again.");
+            // if (Decode_Module.repeatDecode(encoded).equals(message)) {
+                
+            // }
+            // else {
+            //     throw new Exception("Invalid code. Try again.");
+            // }
         }
         input.close();
         export.close();

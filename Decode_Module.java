@@ -7,15 +7,20 @@ public class Decode_Module {
     public static void main(String[] args) throws FileNotFoundException {
         Scanner input = new Scanner(new File("encoded.txt"));
         PrintWriter export = new PrintWriter("decoded.txt");
-        String encoded = input.nextLine();
-        encoded = repeatDecode(encoded);
-        export.println(encoded);
+        while (input.hasNextLine()) {
+            String encoded = input.nextLine();
+            if (! encoded.equals("")) {
+                encoded = repeatDecode(encoded);
+                export.println(encoded);
+            }
+        }
+        input.close();
         export.close();
     }
 
     public static String repeatDecode(String encoded) {
         String ret = new String(encoded);
-        while (! Character.isAlphabetic(ret.charAt(0))) {
+        while (Character.isDigit(ret.charAt(0))) {
             ret = decode(ret);
         }
         return ret;
