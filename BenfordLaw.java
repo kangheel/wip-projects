@@ -1,11 +1,12 @@
 public class BenfordLaw {
     public static void main(String[] args) {
         int b = 2;
-        int iterations = 1000;
+        int iterations = 10000;
         int[] count = new int[10];
+        int z = 0;
         try {
-            for (int i = 0; i < iterations; i++) {
-                String cur = ""+Math.pow(b,i);
+            for (; z < iterations; z++) {
+                String cur = ""+Math.pow(b,z);
                 count[Integer.parseInt(cur.substring(0,1))]++;
             }
         }
@@ -14,7 +15,12 @@ public class BenfordLaw {
         }
         int i = 0;
         for (int c : count) {
-            System.out.println(i + ": " + c*100.0/iterations +"%");
+            int draw = c*100/z;
+            System.out.print(i + ": ");
+            for (int j = 0; j < draw; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
             i++;
         }
     }
