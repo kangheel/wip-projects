@@ -1,0 +1,161 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - tester",
+            "request": "launch",
+            "mainClass": "tester",
+            "projectName": "wip-projects_b770309"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - count8",
+            "request": "launch",
+            "mainClass": "count8",
+            "projectName": "wip-projects_b770309"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - fibonacci",
+            "request": "launch",
+            "mainClass": "fibonacci",
+            "projectName": "wip-projects_b770309"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PaperFolds",
+            "request": "launch",
+            "mainClass": "PaperFolds",
+            "projectName": "wip-projects_b770309"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - frqtester",
+            "request": "launch",
+            "mainClass": "frqtester",
+            "projectName": "wip-projects_b770309"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - pwcracker",
+            "request": "launch",
+            "mainClass": "pwcracker",
+            "projectName": "wip-projects_b770309"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BenfordLaw<wip-projects_b770309>",
+            "request": "launch",
+            "mainClass": "BenfordLaw",
+            "projectName": "wip-projects_b770309"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Decode_Module<wip-projects_b770309>",
+            "request": "launch",
+            "mainClass": "Decode_Module",
+            "projectName": "wip-projects_b770309"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Encode_Module<wip-projects_b770309>",
+            "request": "launch",
+            "mainClass": "Encode_Module",
+            "projectName": "wip-projects_b770309"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Encoder<wip-projects_b770309>",
+            "request": "launch",
+            "mainClass": "Encoder",
+            "projectName": "wip-projects_b770309"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MENACE_AI<wip-projects_b770309>",
+            "request": "launch",
+            "mainClass": "MENACE_AI",
+            "projectName": "wip-projects_b770309"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MENACE_ArrayCreator<wip-projects_b770309>",
+            "request": "launch",
+            "mainClass": "MENACE_ArrayCreator",
+            "projectName": "wip-projects_b770309"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Node_Connection<wip-projects_b770309>",
+            "request": "launch",
+            "mainClass": "Node_Connection",
+            "projectName": "wip-projects_b770309"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PWGen<wip-projects_b770309>",
+            "request": "launch",
+            "mainClass": "PWGen",
+            "projectName": "wip-projects_b770309"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-WIPDecoder<wip-projects_b770309>",
+            "request": "launch",
+            "mainClass": "WIPDecoder",
+            "projectName": "wip-projects_b770309"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-WIPEncryption<wip-projects_b770309>",
+            "request": "launch",
+            "mainClass": "WIPEncryption",
+            "projectName": "wip-projects_b770309"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-duplicator<wip-projects_b770309>",
+            "request": "launch",
+            "mainClass": "duplicator",
+            "projectName": "wip-projects_b770309"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ncurve<wip-projects_b770309>",
+            "request": "launch",
+            "mainClass": "ncurve",
+            "projectName": "wip-projects_b770309"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-rng<wip-projects_b770309>",
+            "request": "launch",
+            "mainClass": "rng",
+            "projectName": "wip-projects_b770309"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-sort<wip-projects_b770309>",
+            "request": "launch",
+            "mainClass": "sort",
+            "projectName": "wip-projects_b770309"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-statspractice<wip-projects_b770309>",
+            "request": "launch",
+            "mainClass": "statspractice",
+            "projectName": "wip-projects_b770309"
+        }
+    ]
+}

@@ -7,7 +7,7 @@ public class MENACE_ArrayCreator {
     private static PrintWriter pw;
 
     public static void main(String[] args) throws FileNotFoundException {
-        pw = new PrintWriter("MENACE-comb.txt");
+        pw = new PrintWriter("ttt.txt");
 
         HashSet<TTTBoard> winners = new HashSet<>();
         TTTBoard start = new TTTBoard(new int[] {0,0,0},new int[] {0,0,0},new int[] {0,0,0});
@@ -291,13 +291,19 @@ public class MENACE_ArrayCreator {
         pw.println("Draws");
         for (TTTBoard tttBoard : turn5) {
             if (MENACE_AI.winner(tttBoard) == -1) {
-                pw.println(tttBoard);
+                String print = tttBoard.toString();
+                print = print.replaceAll("1", "O");
+                print = print.replaceAll("2", "X");
+                pw.println(print);
             }
         }
         pw.println("Winner");
         for (TTTBoard tttBoard : winners) {
             if (MENACE_AI.winner(tttBoard) == 1) {
-                pw.println(tttBoard);
+                String print = tttBoard.toString();
+                print = print.replaceAll("1", "O");
+                print = print.replaceAll("2", "X");
+                pw.println(print);
             }
         }
         pw.close();

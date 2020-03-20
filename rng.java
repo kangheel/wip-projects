@@ -43,7 +43,7 @@ public class rng {
         int[] mdigits = new int[100];
         for (int i = 0; i < 10000; i++) {
             double mrandom = Math.random();
-            double berandom = generateRandom();
+            double berandom = generateRandom(r);
             double reroll = Math.random();
             if (Double.isInfinite(berandom)) {
                 break;
@@ -52,26 +52,26 @@ public class rng {
                 if (reroll < 0.35) {
                     if ((int) (berandom*100) < 10) {
                         while ((int) (berandom*100) < 10 || ((int) (berandom*10) == 9) || (int) (berandom*10) == 0) {
-                            berandom = generateRandom();
+                            berandom = generateRandom(r);
                         }
                     }
                     else {
                         while ((int) (berandom*10) == 0 || (int) (berandom*10) == 9) {
-                            berandom = generateRandom();
+                            berandom = generateRandom(r);
                         }
                     }
                 }
                 else {
                     if ((int) (berandom*100) == 99) {
                         while ((int) (berandom*100) >= 90) {
-                            berandom = generateRandom();
+                            berandom = generateRandom(r);
                         }
                     }
                     else {
                         double sreroll = Math.random();
                         if (sreroll < 0.35) {
                             while ((int) (berandom*10) == 9) {
-                                berandom = generateRandom();
+                                berandom = generateRandom(r);
                             }
                         }
                     }
@@ -120,7 +120,7 @@ public class rng {
         pw.close();
     }
 
-    private static double generateRandom() {
+    public static double generateRandom(double r) {
         double prev = 0.5;
         double cur = calcPoint(r,prev);
         int index = 0;

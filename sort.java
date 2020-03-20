@@ -6,12 +6,12 @@ public class sort {
     private static int iterations;
     private static PrintWriter pw;
     public static void main(String[] args) throws FileNotFoundException {
-        pw = new PrintWriter(new File("sort.csv"));
-        int length = 50;
-        int cap = 100;
+        pw = new PrintWriter(new File("sort.txt"));
+        int length = 250;
+        int cap = 10000;
         int[] numbers = new int[length];
         for (int i = 0; i < length; i++) {
-            numbers[i] = (int) (Math.random()*cap);
+            numbers[i] = (int) (rng.generateRandom(3.994999999999671)*cap);
         }
         printArray(numbers);
         int[] clone1 = numbers.clone();
@@ -19,6 +19,7 @@ public class sort {
         int[] clone3 = numbers.clone();
         int[] clone4 = numbers.clone();
         int[] clone5 = numbers.clone();
+        int[] clone6 = numbers.clone();
         iterations = 0;
         pw.println("Bubble sort");
         long BSstartTime = System.currentTimeMillis();
@@ -53,13 +54,21 @@ public class sort {
         neighborSort(clone5);
         long NSendTime = System.currentTimeMillis();
         long NSduration = (NSendTime - NSstartTime);
-        int neighborSortIteartions = iterations;
+        int neighborSortIterations = iterations;
+        // System.out.println("Neighbor sort complete");
+        pw.println("Binary sort");
+        long BISstartTime = System.currentTimeMillis();
+        binarySort(clone6);
+        long BISendTime = System.currentTimeMillis();
+        long BISduration = (BISendTime - BISstartTime);
+        int binarySortIterations = iterations;
         // System.out.println("Neighbor sort complete");
         pw.println("Bubble Sort: "+bubbleSortIterations + " " + BSduration + "ms");
         pw.println("Foil Sort: "+foilSortIterations + " " + FSduration + "ms");
         pw.println("Criss Cross Sort: "+crissCrossSortIterations + " " + CCSduration + "ms");
         pw.println("Layer Sort: "+layerSortIterations + " " + LSduration + "ms");
-        pw.println("Neighbor Sort: "+neighborSortIteartions + " " + NSduration + "ms");
+        pw.println("Neighbor Sort: "+neighborSortIterations + " " + NSduration + "ms");
+        pw.println("Binary Sort: "+binarySortIterations + " " + BISduration + "ms");
         pw.close();
     }
 
@@ -258,6 +267,34 @@ public class sort {
                 pw.print(iterations+": ");
                 printArray(numbers);
                 iterations++;
+            }
+        }
+        return numbers;
+    }
+
+    public static int[] binarySort(int[] numbers) {
+        iterations = 0;
+        while (notSorted(numbers)) {
+            int iters = (int) (Math.log(numbers.length)/Math.log(2));
+            int cur = 2;
+            for (int i = 0; i < iters; i++) {
+                if (numbers.length/cur == 1 || numbers.length/cur == 0) {
+                    numbers = layerSort(numbers);
+                    iterations++;
+                }
+                else {
+                    for (int j = 0; j < numbers.length/cur; j+=cur) {
+                        int[] temp = new int[cur];
+                        for (int k = 0; k < temp.length; k++) {
+                            temp[k] = numbers[j+k];
+                        }
+                        int[] sorted = layerSort(temp);
+                        for (int k = 0; k < sorted.length; k++) {
+                            numbers[j+k] = sorted[k];
+                        }
+                    }
+                    cur*=2;
+                }
             }
         }
         return numbers;
