@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - logicaloperators",
+            "request": "launch",
+            "mainClass": "logicaloperators",
+            "projectName": "wip-projects_b770309"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - tester",
             "request": "launch",
             "mainClass": "tester",
