@@ -1,7 +1,7 @@
 public class logicaloperators {
     public static void main(String[] args) {
-        int a = 259045904;
-        int b = 259045904;
+        int a = 127;
+        int b = 1;
         String stringA = convertToBinary(a);
         String stringB = convertToBinary(b);
         System.out.println(stringA);
@@ -16,7 +16,26 @@ public class logicaloperators {
         String sumBinary = addBinary(stringA, stringB);
         System.out.println(a+"+"+b+"="+(a+b));
         System.out.println(stringA+"+"+stringB+"="+sumBinary);
-        System.out.println(sumBinary+"="+convertToDecimal(sumBinary));
+        System.out.println(sumBinary+"="+convertToDecimal(sumBinary)+"\n");
+        while (convertToDecimal(sumBinary) == (a+b)) {
+            a = (int) (Math.random()*10);
+            b = (int) (Math.random()*10);
+            stringA = convertToBinary(a);
+            stringB = convertToBinary(b);
+            System.out.println(stringA);
+            System.out.println(stringB);
+            dlen = stringB.length()-stringA.length();
+            if (dlen > 0) {
+                stringA = getFiller(dlen) + stringA;
+            }
+            else if (dlen < 0) {
+                stringB = getFiller(-1*dlen) + stringB;
+            }
+            sumBinary = addBinary(stringA, stringB);
+            System.out.println(a+"+"+b+"="+(a+b));
+            System.out.println(stringA+"+"+stringB+"="+sumBinary);
+            System.out.println(sumBinary+"="+convertToDecimal(sumBinary)+"\n");
+        }
     }
 
     private static String addBinary(String stringA, String stringB) {
