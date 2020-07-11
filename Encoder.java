@@ -4,7 +4,7 @@ import java.io.PrintWriter;
 public class Encoder {
     public static void main(String[] args) throws FileNotFoundException {
         PrintWriter export = new PrintWriter("encoded.txt");
-        String message = "Added new files 3/27/20";
+        String message = "";
         export.println(encode(message, 3));
         export.close();
     }

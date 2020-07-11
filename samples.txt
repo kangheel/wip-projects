@@ -1,0 +1,500 @@
+Real size:232111
+Estimated population: 239463
+Absolute Difference: 7352
+Percent Difference: 3.17%
+
+Real size:350565
+Estimated population: 369822
+Absolute Difference: 19257
+Percent Difference: 5.49%
+
+Real size:237382
+Estimated population: 239923
+Absolute Difference: 2541
+Percent Difference: 1.07%
+
+Real size:152069
+Estimated population: 151975
+Absolute Difference: 94
+Percent Difference: 0.06%
+
+Real size:289687
+Estimated population: 289351
+Absolute Difference: 336
+Percent Difference: 0.12%
+
+Real size:304272
+Estimated population: 302297
+Absolute Difference: 1975
+Percent Difference: 0.65%
+
+Real size:164667
+Estimated population: 168123
+Absolute Difference: 3456
+Percent Difference: 2.1%
+
+Real size:79391
+Estimated population: 80205
+Absolute Difference: 814
+Percent Difference: 1.03%
+
+Real size:85580
+Estimated population: 86385
+Absolute Difference: 805
+Percent Difference: 0.94%
+
+Real size:183788
+Estimated population: 188821
+Absolute Difference: 5033
+Percent Difference: 2.74%
+
+Real size:210504
+Estimated population: 211327
+Absolute Difference: 823
+Percent Difference: 0.39%
+
+Real size:81697
+Estimated population: 81168
+Absolute Difference: 529
+Percent Difference: 0.65%
+
+Real size:479344
+Estimated population: 490196
+Absolute Difference: 10852
+Percent Difference: 2.26%
+
+Real size:340841
+Estimated population: 331564
+Absolute Difference: 9277
+Percent Difference: 2.72%
+
+Real size:248736
+Estimated population: 258531
+Absolute Difference: 9795
+Percent Difference: 3.94%
+
+Real size:457940
+Estimated population: 443262
+Absolute Difference: 14678
+Percent Difference: 3.21%
+
+Real size:62050
+Estimated population: 61973
+Absolute Difference: 77
+Percent Difference: 0.12%
+
+Real size:105075
+Estimated population: 103734
+Absolute Difference: 1341
+Percent Difference: 1.28%
+
+Real size:363194
+Estimated population: 380517
+Absolute Difference: 17323
+Percent Difference: 4.77%
+
+Real size:243214
+Estimated population: 239005
+Absolute Difference: 4209
+Percent Difference: 1.73%
+
+Real size:229726
+Estimated population: 230202
+Absolute Difference: 476
+Percent Difference: 0.21%
+
+Real size:495487
+Estimated population: 515463
+Absolute Difference: 19976
+Percent Difference: 4.03%
+
+Real size:402313
+Estimated population: 397456
+Absolute Difference: 4857
+Percent Difference: 1.21%
+
+Real size:400897
+Estimated population: 405186
+Absolute Difference: 4289
+Percent Difference: 1.07%
+
+Real size:471973
+Estimated population: 460405
+Absolute Difference: 11568
+Percent Difference: 2.45%
+
+Real size:349758
+Estimated population: 340599
+Absolute Difference: 9159
+Percent Difference: 2.62%
+
+Real size:361385
+Estimated population: 379939
+Absolute Difference: 18554
+Percent Difference: 5.13%
+
+Real size:76986
+Estimated population: 79138
+Absolute Difference: 2152
+Percent Difference: 2.8%
+
+Real size:166550
+Estimated population: 168010
+Absolute Difference: 1460
+Percent Difference: 0.88%
+
+Real size:251585
+Estimated population: 255885
+Absolute Difference: 4300
+Percent Difference: 1.71%
+
+Real size:299249
+Estimated population: 287026
+Absolute Difference: 12223
+Percent Difference: 4.08%
+
+Real size:169921
+Estimated population: 170068
+Absolute Difference: 147
+Percent Difference: 0.09%
+
+Real size:374829
+Estimated population: 356633
+Absolute Difference: 18196
+Percent Difference: 4.85%
+
+Real size:452080
+Estimated population: 415282
+Absolute Difference: 36798
+Percent Difference: 8.14%
+
+Real size:333643
+Estimated population: 334672
+Absolute Difference: 1029
+Percent Difference: 0.31%
+
+Real size:56495
+Estimated population: 56458
+Absolute Difference: 37
+Percent Difference: 0.07%
+
+Real size:254178
+Estimated population: 252525
+Absolute Difference: 1653
+Percent Difference: 0.65%
+
+Real size:248019
+Estimated population: 251004
+Absolute Difference: 2985
+Percent Difference: 1.2%
+
+Real size:82473
+Estimated population: 84033
+Absolute Difference: 1560
+Percent Difference: 1.89%
+
+Real size:234142
+Estimated population: 228519
+Absolute Difference: 5623
+Percent Difference: 2.4%
+
+Real size:354161
+Estimated population: 359195
+Absolute Difference: 5034
+Percent Difference: 1.42%
+
+Real size:406712
+Estimated population: 408496
+Absolute Difference: 1784
+Percent Difference: 0.44%
+
+Real size:367240
+Estimated population: 392464
+Absolute Difference: 25224
+Percent Difference: 6.87%
+
+Real size:358105
+Estimated population: 370370
+Absolute Difference: 12265
+Percent Difference: 3.42%
+
+Real size:481618
+Estimated population: 506072
+Absolute Difference: 24454
+Percent Difference: 5.08%
+
+Real size:314869
+Estimated population: 314070
+Absolute Difference: 799
+Percent Difference: 0.25%
+
+Real size:464605
+Estimated population: 453720
+Absolute Difference: 10885
+Percent Difference: 2.34%
+
+Real size:442131
+Estimated population: 437828
+Absolute Difference: 4303
+Percent Difference: 0.97%
+
+Real size:333161
+Estimated population: 347222
+Absolute Difference: 14061
+Percent Difference: 4.22%
+
+Real size:368875
+Estimated population: 371471
+Absolute Difference: 2596
+Percent Difference: 0.7%
+
+Real size:250860
+Estimated population: 247279
+Absolute Difference: 3581
+Percent Difference: 1.43%
+
+Real size:498723
+Estimated population: 500000
+Absolute Difference: 1277
+Percent Difference: 0.26%
+
+Real size:233487
+Estimated population: 230627
+Absolute Difference: 2860
+Percent Difference: 1.22%
+
+Real size:214333
+Estimated population: 213857
+Absolute Difference: 476
+Percent Difference: 0.22%
+
+Real size:94856
+Estimated population: 91810
+Absolute Difference: 3046
+Percent Difference: 3.21%
+
+Real size:498054
+Estimated population: 503018
+Absolute Difference: 4964
+Percent Difference: 1.0%
+
+Real size:263606
+Estimated population: 257466
+Absolute Difference: 6140
+Percent Difference: 2.33%
+
+Real size:376561
+Estimated population: 376506
+Absolute Difference: 55
+Percent Difference: 0.01%
+
+Real size:432968
+Estimated population: 403877
+Absolute Difference: 29091
+Percent Difference: 6.72%
+
+Real size:271645
+Estimated population: 268817
+Absolute Difference: 2828
+Percent Difference: 1.04%
+
+Real size:326868
+Estimated population: 333778
+Absolute Difference: 6910
+Percent Difference: 2.11%
+
+Real size:94006
+Estimated population: 94589
+Absolute Difference: 583
+Percent Difference: 0.62%
+
+Real size:443891
+Estimated population: 412541
+Absolute Difference: 31350
+Percent Difference: 7.06%
+
+Real size:267163
+Estimated population: 276243
+Absolute Difference: 9080
+Percent Difference: 3.4%
+
+Real size:394966
+Estimated population: 367647
+Absolute Difference: 27319
+Percent Difference: 6.92%
+
+Real size:433487
+Estimated population: 436300
+Absolute Difference: 2813
+Percent Difference: 0.65%
+
+Real size:255858
+Estimated population: 252016
+Absolute Difference: 3842
+Percent Difference: 1.5%
+
+Real size:258430
+Estimated population: 247524
+Absolute Difference: 10906
+Percent Difference: 4.22%
+
+Real size:498088
+Estimated population: 485436
+Absolute Difference: 12652
+Percent Difference: 2.54%
+
+Real size:287383
+Estimated population: 293427
+Absolute Difference: 6044
+Percent Difference: 2.1%
+
+Real size:473786
+Estimated population: 457875
+Absolute Difference: 15911
+Percent Difference: 3.36%
+
+Real size:80942
+Estimated population: 80775
+Absolute Difference: 167
+Percent Difference: 0.21%
+
+Real size:141118
+Estimated population: 135648
+Absolute Difference: 5470
+Percent Difference: 3.88%
+
+Real size:149228
+Estimated population: 148456
+Absolute Difference: 772
+Percent Difference: 0.52%
+
+Real size:174827
+Estimated population: 172413
+Absolute Difference: 2414
+Percent Difference: 1.38%
+
+Real size:94535
+Estimated population: 97012
+Absolute Difference: 2477
+Percent Difference: 2.62%
+
+Real size:291832
+Estimated population: 300480
+Absolute Difference: 8648
+Percent Difference: 2.96%
+
+Real size:409205
+Estimated population: 411184
+Absolute Difference: 1979
+Percent Difference: 0.48%
+
+Real size:144532
+Estimated population: 148544
+Absolute Difference: 4012
+Percent Difference: 2.78%
+
+Real size:443838
+Estimated population: 423728
+Absolute Difference: 20110
+Percent Difference: 4.53%
+
+Real size:241400
+Estimated population: 240847
+Absolute Difference: 553
+Percent Difference: 0.23%
+
+Real size:472951
+Estimated population: 486381
+Absolute Difference: 13430
+Percent Difference: 2.84%
+
+Real size:201316
+Estimated population: 200964
+Absolute Difference: 352
+Percent Difference: 0.17%
+
+Real size:161787
+Estimated population: 160256
+Absolute Difference: 1531
+Percent Difference: 0.95%
+
+Real size:53228
+Estimated population: 54312
+Absolute Difference: 1084
+Percent Difference: 2.04%
+
+Real size:104240
+Estimated population: 103950
+Absolute Difference: 290
+Percent Difference: 0.28%
+
+Real size:335562
+Estimated population: 330250
+Absolute Difference: 5312
+Percent Difference: 1.58%
+
+Real size:132195
+Estimated population: 135648
+Absolute Difference: 3453
+Percent Difference: 2.61%
+
+Real size:307947
+Estimated population: 301568
+Absolute Difference: 6379
+Percent Difference: 2.07%
+
+Real size:429192
+Estimated population: 454545
+Absolute Difference: 25353
+Percent Difference: 5.91%
+
+Real size:87962
+Estimated population: 88936
+Absolute Difference: 974
+Percent Difference: 1.11%
+
+Real size:305766
+Estimated population: 312500
+Absolute Difference: 6734
+Percent Difference: 2.2%
+
+Real size:195270
+Estimated population: 188679
+Absolute Difference: 6591
+Percent Difference: 3.38%
+
+Real size:427426
+Estimated population: 448833
+Absolute Difference: 21407
+Percent Difference: 5.01%
+
+Real size:461493
+Estimated population: 472589
+Absolute Difference: 11096
+Percent Difference: 2.4%
+
+Real size:183419
+Estimated population: 170183
+Absolute Difference: 13236
+Percent Difference: 7.22%
+
+Real size:475102
+Estimated population: 445632
+Absolute Difference: 29470
+Percent Difference: 6.2%
+
+Real size:453140
+Estimated population: 457038
+Absolute Difference: 3898
+Percent Difference: 0.86%
+
+Real size:411214
+Estimated population: 427350
+Absolute Difference: 16136
+Percent Difference: 3.92%
+
+Real size:433935
+Estimated population: 439367
+Absolute Difference: 5432
+Percent Difference: 1.25%
+

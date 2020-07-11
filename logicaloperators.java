@@ -1,7 +1,7 @@
 public class logicaloperators {
     public static void main(String[] args) {
-        int a = 127;
-        int b = 1;
+        int a = 67;
+        int b = 13;
         String stringA = convertToBinary(a);
         String stringB = convertToBinary(b);
         System.out.println(stringA);
@@ -17,25 +17,39 @@ public class logicaloperators {
         System.out.println(a+"+"+b+"="+(a+b));
         System.out.println(stringA+"+"+stringB+"="+sumBinary);
         System.out.println(sumBinary+"="+convertToDecimal(sumBinary)+"\n");
-        while (convertToDecimal(sumBinary) == (a+b)) {
-            a = (int) (Math.random()*10);
-            b = (int) (Math.random()*10);
-            stringA = convertToBinary(a);
-            stringB = convertToBinary(b);
-            System.out.println(stringA);
-            System.out.println(stringB);
-            dlen = stringB.length()-stringA.length();
-            if (dlen > 0) {
-                stringA = getFiller(dlen) + stringA;
-            }
-            else if (dlen < 0) {
-                stringB = getFiller(-1*dlen) + stringB;
-            }
-            sumBinary = addBinary(stringA, stringB);
-            System.out.println(a+"+"+b+"="+(a+b));
-            System.out.println(stringA+"+"+stringB+"="+sumBinary);
-            System.out.println(sumBinary+"="+convertToDecimal(sumBinary)+"\n");
+
+        String subBinary = subtractBinary(stringA, stringB);
+        System.out.println(a+"-"+b+"="+(a-b));
+        System.out.println(stringA+"-"+stringB+"="+subBinary);
+        System.out.println(subBinary+"="+convertToDecimal(subBinary)+"\n");
+    }
+
+    private static String subtractBinary(String stringA, String stringB) {
+        int dlen = stringB.length()-stringA.length();
+        if (dlen > 0) {
+            stringA = getFiller(dlen) + stringA;
         }
+        else if (dlen < 0) {
+            stringB = getFiller(-1*dlen) + stringB;
+        }
+        StringBuffer ret = new StringBuffer(stringA);
+        for (int i = 1; i < stringB.length(); i++) {
+            ret.setCharAt(i, (char)(ret.charAt(i)-Integer.parseInt(stringB.substring(i-1,i))));
+        }
+        while (ret.toString().indexOf("/") != -1) {
+            for (int i = 1; i < ret.toString().length(); i++) {
+                if (ret.toString().toCharArray()[i] == '/') {
+                    ret.setCharAt(i-1, '1');
+                    if (ret.charAt(i) == '/') {
+                        ret.setCharAt(i, '0');
+                    }
+                    else {
+                        ret.setCharAt(i, (char) (Integer.parseInt(ret.charAt(i+1)+"")+1));
+                    }
+                }
+            }
+        }
+        return ret.toString().substring(0,1).equals("0") ? ret.toString().substring(1) : ret.toString();
     }
 
     private static String addBinary(String stringA, String stringB) {

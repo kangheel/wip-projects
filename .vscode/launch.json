@@ -6,6 +6,125 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - TOH",
+            "request": "launch",
+            "mainClass": "TOH",
+            "projectName": "wip-projects_b770309"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CoinflipGambleExpectedVal",
+            "request": "launch",
+            "mainClass": "CoinflipGambleExpectedVal",
+            "projectName": "wip-projects_b770309"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - miningsim",
+            "request": "launch",
+            "mainClass": "miningsim",
+            "projectName": "wip-projects_b770309"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MiningSimRunner",
+            "request": "launch",
+            "mainClass": "MiningSimRunner",
+            "projectName": "wip-projects_b770309"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - testequationsolver",
+            "request": "launch",
+            "mainClass": "testequationsolver",
+            "projectName": "wip-projects_b770309"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - picalctest",
+            "request": "launch",
+            "mainClass": "picalctest",
+            "projectName": "wip-projects_b770309"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - sampling",
+            "request": "launch",
+            "mainClass": "sampling",
+            "projectName": "wip-projects_b770309"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - equationsolver",
+            "request": "launch",
+            "mainClass": "equationsolver",
+            "projectName": "wip-projects_b770309"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - tt",
+            "request": "launch",
+            "mainClass": "tt",
+            "projectName": "wip-projects_b770309"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - APCalendar",
+            "request": "launch",
+            "mainClass": "APCalendar",
+            "projectName": "wip-projects_b770309"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - t",
+            "request": "launch",
+            "mainClass": "t",
+            "projectName": "wip-projects_b770309"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Compression",
+            "request": "launch",
+            "mainClass": "Compression",
+            "projectName": "wip-projects_b770309"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - happynumbers",
+            "request": "launch",
+            "mainClass": "happynumbers",
+            "projectName": "wip-projects_b770309"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - collatz",
+            "request": "launch",
+            "mainClass": "collatz",
+            "projectName": "wip-projects_b770309"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - apcshw",
+            "request": "launch",
+            "mainClass": "apcshw",
+            "projectName": "wip-projects_b770309"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - cbtester",
+            "request": "launch",
+            "mainClass": "cbtester",
+            "projectName": "wip-projects_b770309"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - test",
+            "request": "launch",
+            "mainClass": "test",
+            "projectName": "wip-projects_b770309"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - logicaloperators",
             "request": "launch",
             "mainClass": "logicaloperators",

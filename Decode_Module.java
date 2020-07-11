@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Decode_Module {
     public static void main(String[] args) throws FileNotFoundException {
-        Scanner input = new Scanner(new File("encoded.txt"));
+        Scanner input = new Scanner(new File("message.txt"));
         PrintWriter export = new PrintWriter("decoded.txt");
         while (input.hasNextLine()) {
             String encoded = input.nextLine();

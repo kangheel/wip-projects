@@ -1,0 +1,8 @@
+Redstone 1923
+Gold 937
+Emerald 35
+Coal 9381
+Lapis_Lazuli 1088
+Iron 2218
+Diamond 345
+Cobblestone 14776
